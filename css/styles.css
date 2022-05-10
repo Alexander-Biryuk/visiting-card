@@ -1,0 +1,67 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap");
+
+html {
+    font-family: "Open Sans", helvetica, arial, sans-serif;
+}  */
+
+@font-face {
+    font-family: "OpenSans-Regular";
+    src: url("../fonts/OpenSans-Regular.ttf");
+} 
+
+@font-face {
+    font-family: "OpenSans-Italic";
+    src: url("../fonts/OpenSans-Italic.ttf");
+} 
+
+@font-face {
+    font-family: "OpenSans-Bold";
+    src: url("../fonts/OpenSans-Bold.ttf");
+} 
+
+html {
+  font-family: "OpenSans-Regular", Helvetica, Arial, sans-serif;
+} 
+
+body {
+  background-color:LightSkyBlue;
+}
+
+.header {
+	margin:20px;
+	padding: 10px;
+  text-align: center;
+}
+
+.title {
+	margin: 50px;
+}
+.nav_item {
+  color: blue;
+	padding: 10px;
+	
+}
+
+nav {
+  margin: 10px;
+  padding: 10px;
+}
+
+.img {
+  width: 400px;
+	border: 5px solid yellow;
+}
+
+.about {
+	border-left: 8px solid blue;
+	padding: 5px;
+}
+
+.main-information {
+	margin: 10px;
+}
+
+.footer {
+	margin:10px;
+	border-left: 8px solid blue;
+}
