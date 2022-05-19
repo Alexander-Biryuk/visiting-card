@@ -25,16 +25,16 @@ html {
 
 body {
   background-color:LightSkyBlue;
+  margin: 0;
 }
 
 .header {
-	margin:20px;
-	padding: 10px;
-  text-align: center;
+	text-align: center;
 }
 
 .title {
 	margin: 50px;
+  font-family: serif;
 }
 .nav_item {
   color: blue;
@@ -54,14 +54,26 @@ nav {
 
 .about {
 	border-left: 8px solid blue;
-	padding: 5px;
+  padding: 5px;
+  font-family: serif;
+  
 }
 
-.main-information {
-	margin: 10px;
+.main {
+  display: flex;
+	flex-direction: row;
+  justify-content: center;
+}
+
+.main-info {
+  padding-left: 50px;
 }
 
 .footer {
-	margin:10px;
-	border-left: 8px solid blue;
+	text-align: center;
 }
+
+.footer h2 {
+  border-left: 8px solid blue;
+}
+
