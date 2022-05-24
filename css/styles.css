@@ -26,6 +26,7 @@ html {
 body {
   background-image: url(../images/IMG_20150411_094145.jpg);
   background-size: cover;
+  position: relative;
   margin: 0;
   color: white;
 }
@@ -44,26 +45,31 @@ body {
 
 .header {
 	text-align: center;
-  color: white;
 }
 
 .title {
 	margin: 50px;
   font-family: serif;
 }
+
+.nav {
+  padding-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
 .nav_item {
   color: orange;
-	padding: 10px;
-	
 }
 
-nav {
-  margin: 10px;
-  padding: 10px;
+.nav_item:hover {
+  background-color: rgb(101, 101, 101);
+  transition: 0.2s;
 }
 
 .img {
-  width: 400px;
+  width: 100%;
+  max-width: 400px;
 	border: 5px solid orange;
 }
 
@@ -78,6 +84,7 @@ nav {
 .main {
   display: flex;
 	flex-direction: row;
+  flex-wrap: wrap;
   justify-content: center;
 }
 
@@ -99,12 +106,25 @@ nav {
   margin-top: 0;
 }
 
+.footer-link {
+  color: white;
+}
+
 .icon {
   margin-right: 10px;
   color: white;
 }
 
-
+/* .backtotop {
+  width: 50px;
+  height: 50px;
+  top: 90%;
+  bottom: 0;
+  left: 90%;
+  right: 0;
+  position: fixed;
+  background-color: white;
+} */
 
 
 
